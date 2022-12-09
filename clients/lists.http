@@ -1,0 +1,24 @@
+### Get Lists
+
+GET http://localhost:8080/lists HTTP/1.1
+content-type: application/json
+
+### Create List
+
+POST http://localhost:8080/lists HTTP/1.1
+content-type: application/json
+
+### Get List
+
+GET http://localhost:8080/lists/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json
+
+### Update List
+
+PUT http://localhost:8080/lists/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json
+
+### Delete List
+
+DELETE http://localhost:8080/lists/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json

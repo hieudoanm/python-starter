@@ -1,0 +1,24 @@
+### Get Tasks
+
+GET http://localhost:8080/tasks HTTP/1.1
+content-type: application/json
+
+### Create Task
+
+POST http://localhost:8080/tasks HTTP/1.1
+content-type: application/json
+
+### Get Task
+
+GET http://localhost:8080/tasks/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json
+
+### Update Task
+
+PUT http://localhost:8080/tasks/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json
+
+### Delete Task
+
+DELETE http://localhost:8080/tasks/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json

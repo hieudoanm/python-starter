@@ -1,0 +1,24 @@
+### Get Users
+
+GET http://localhost:8080/users HTTP/1.1
+content-type: application/json
+
+### Create User
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+
+### Get User
+
+GET http://localhost:8080/users/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json
+
+### Update User
+
+PUT http://localhost:8080/users/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json
+
+### Delete User
+
+DELETE http://localhost:8080/users/74d6d631-3985-4204-a3a1-baebbaec2ceb HTTP/1.1
+content-type: application/json
