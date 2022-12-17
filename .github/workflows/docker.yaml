@@ -21,7 +21,7 @@ jobs:
             version: ubuntu-latest
         python:
           - name: Python 3.10
-            version: 3.10
+            version: "3.10"
         project:
           - name: APIs - Fast
             image-name: apis-fast
